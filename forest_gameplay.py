@@ -77,9 +77,6 @@ def command_listener():
             # Get user input
             user_input = input("Enter a topic and message (e.g., 'home/light ON'): ")
 
-            if user_input.lower() == "start":
-                game_loop()
-
             # Parse input
             if user_input.lower() == "exit":
                 print("Exiting...")
