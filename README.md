@@ -2,6 +2,17 @@
 
 Welcome to the Zektor Game Controller! This application is designed to manage and monitor sessions for the Zektor escape room game. It allows game masters to start new sessions, track progress through different stages, adjust scores, and view active and completed sessions—all through a user-friendly interface.
 
+## Screenshots:
+
+### Dashboard
+![Zektor Dashboard](<Screenshot 2024-11-22 at 2.44.26 AM.png>)
+
+### Game Control (Progress Groups through Games)
+![Progress Group](<Screenshot 2024-11-22 at 2.44.48 AM.png>)
+
+### Session Summary
+![Session Summary](<Screenshot 2024-11-22 at 2.45.00 AM.png>)
+
 ## Table of Contents
 
 - [Overview]()
