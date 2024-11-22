@@ -1,0 +1,35 @@
+{
+  "stage_map": {
+    "1": null,
+    "2": "session3",
+    "3": null,
+    "4": null,
+    "5": null
+  },
+  "sessions": {
+    "session1": {
+      "current_stage": 5,
+      "score": 3,
+      "start_time": "2024-11-21T23:55:36.029531"
+    },
+    "session2": {
+      "current_stage": 5,
+      "score": 8,
+      "start_time": "2024-11-22T00:03:19.364637"
+    },
+    "session3": {
+      "name": "Kool Kidz",
+      "current_stage": 2,
+      "score": 14,
+      "start_time": "2024-11-22T00:31:23.127035"
+    }
+  },
+  "active_sessions": [
+    "session3"
+  ],
+  "completed_sessions": [
+    "session1",
+    "session2"
+  ],
+  "next_session_id": 4
+}

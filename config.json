@@ -1,0 +1,18 @@
+{
+  "development": {
+    "BROKER": "127.0.0.1",
+    "PORT": 1883,
+    "USERNAME": "local_username",
+    "PASSWORD": "local_password",
+    "TOPIC": "test/forest/activity",
+    "ENABLED": false
+  },
+  "production": {
+    "BROKER": "homeassistant.local",
+    "PORT": 1883,
+    "USERNAME": "zektor",
+    "PASSWORD": "command",
+    "TOPIC": "forest/activity",
+    "ENABLED": true
+  }
+}
