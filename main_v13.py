@@ -9,6 +9,17 @@ import os
 
 # Set page configuration first
 st.set_page_config(layout="wide")
+st.markdown(
+    """
+    <style>
+        header {
+            visibility: hidden;
+            display: none;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Load configurations
 with open("config.json") as config_file:
