@@ -354,7 +354,7 @@ for i, col in enumerate(cols, start=1):
                 session_score = session["score"]
 
                 # Display the session card
-                session_card = st.container()
+                session_card = st.container(border=True)
                 with session_card:
                     # Title and subtitle
                     st.markdown(
