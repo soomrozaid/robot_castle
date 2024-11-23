@@ -1,18 +1,32 @@
 {
   "development": {
-    "BROKER": "127.0.0.1",
+    "ENABLED": false,
+    "BROKER": "localhost",
     "PORT": 1883,
-    "USERNAME": "local_username",
-    "PASSWORD": "local_password",
-    "TOPIC": "test/forest/activity",
-    "ENABLED": false
+    "USERNAME": "user",
+    "PASSWORD": "pass",
+    "STAGE_TOPICS": {
+      "1": "stage1/topic",
+      "2": "stage2/topic",
+      "3": "stage3/topic",
+      "4": "stage4/topic",
+      "5": "stage5/topic",
+      "6": "stage6/topic"
+    }
   },
   "production": {
-    "BROKER": "homeassistant.local",
+    "ENABLED": true,
+    "BROKER": "broker.hivemq.com",
     "PORT": 1883,
-    "USERNAME": "zektor",
-    "PASSWORD": "command",
-    "TOPIC": "forest/activity",
-    "ENABLED": true
+    "USERNAME": "user",
+    "PASSWORD": "pass",
+    "STAGE_TOPICS": {
+      "1": "prod/stage1/topic",
+      "2": "prod/stage2/topic",
+      "3": "prod/stage3/topic",
+      "4": "prod/stage4/topic",
+      "5": "prod/stage5/topic",
+      "6": "prod/stage6/topic"
+    }
   }
 }
