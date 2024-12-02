@@ -1,0 +1,44 @@
+{
+  "stage_progression": {
+    "forest": {
+      "next_stage": "hallway",
+      "trigger_topic": "gate/status",
+      "trigger_message": "unlock"
+    },
+    "hallway": {
+      "next_stage": "electricity",
+      "trigger_topic": "hallway/status",
+      "trigger_message": "completed"
+    },
+    "electricity": {
+      "next_stage": "zektor",
+      "trigger_topic": "zektor/status",
+      "trigger_message": "started"
+    },
+    "zektor": {
+      "next_stage": "pixels",
+      "trigger_topic": "zektor/status",
+      "trigger_message": "completed"
+    },
+    "pixels": {
+      "next_stage": "final",
+      "trigger_topic": "pixel/status",
+      "trigger_message": "completed"
+    },
+    "final": {
+      "trigger_topic": "final_game/status",
+      "trigger_message": "completed"
+    }
+  },
+  "blocking_rules": {
+    "forest": [
+      "hallway"
+    ],
+    "hallway": [
+      "electricity"
+    ],
+    "zektor": [
+      "pixels"
+    ]
+  }
+}

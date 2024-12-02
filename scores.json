@@ -1,0 +1,30 @@
+{
+  "archway/01": {
+    "positive": 5,
+    "negative": -3
+  },
+  "archway/02": {
+    "positive": 2,
+    "negative": -1
+  },
+  "archway/03": {
+    "positive": 10,
+    "negative": -5
+  },
+  "hallway": {
+    "positive": 10,
+    "negative": -5
+  },
+  "electricity": {
+    "positive": 10,
+    "negative": -5
+  },
+  "zektor": {
+    "positive": 10,
+    "negative": -5
+  },
+  "pixel01": {
+    "positive": 10,
+    "negative": -5
+  }
+}
