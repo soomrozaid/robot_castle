@@ -1,32 +1,60 @@
 {
   "development": {
-    "ENABLED": false,
-    "BROKER": "localhost",
+    "ENABLED": true,
+    "BROKER": "127.0.0.1",
     "PORT": 1883,
-    "USERNAME": "user",
-    "PASSWORD": "pass",
+    "USERNAME": "zektor",
+    "PASSWORD": "command",
     "STAGE_TOPICS": {
-      "1": "stage1/topic",
-      "2": "stage2/topic",
-      "3": "stage3/topic",
-      "4": "stage4/topic",
-      "5": "stage5/topic",
-      "6": "stage6/topic"
+      "1": [
+        "archway/01/activity",
+        "archway/02/activity",
+        "archway/03/activity"
+      ],
+      "2": [
+        "hallway/activity"
+      ],
+      "3": [
+        "electricity/activity"
+      ],
+      "4": [
+        "zektor/activity"
+      ],
+      "5": [
+        "pixel01"
+      ],
+      "6": [
+        "final/activity"
+      ]
     }
   },
   "production": {
     "ENABLED": true,
-    "BROKER": "broker.hivemq.com",
+    "BROKER": "homeassistant.local",
     "PORT": 1883,
-    "USERNAME": "user",
-    "PASSWORD": "pass",
+    "USERNAME": "zektor",
+    "PASSWORD": "command",
     "STAGE_TOPICS": {
-      "1": "prod/stage1/topic",
-      "2": "prod/stage2/topic",
-      "3": "prod/stage3/topic",
-      "4": "prod/stage4/topic",
-      "5": "prod/stage5/topic",
-      "6": "prod/stage6/topic"
+      "1": [
+        "archway/01/activity",
+        "archway/02/activity",
+        "archway/03/activity"
+      ],
+      "2": [
+        "hallway/activity"
+      ],
+      "3": [
+        "electricity/activity"
+      ],
+      "4": [
+        "zektor/activity"
+      ],
+      "5": [
+        "pixel01/activity"
+      ],
+      "6": [
+        "final/activity"
+      ]
     }
   }
 }

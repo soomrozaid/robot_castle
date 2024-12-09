@@ -1,29 +1,29 @@
 {
-  "archway/01": {
+  "archway/01/activity": {
     "positive": 5,
     "negative": -3
   },
-  "archway/02": {
+  "archway/02/activity": {
     "positive": 2,
     "negative": -1
   },
-  "archway/03": {
+  "archway/03/activity": {
     "positive": 10,
     "negative": -5
   },
-  "hallway": {
+  "hallway/activity": {
     "positive": 10,
     "negative": -5
   },
-  "electricity": {
+  "electricity/activity": {
     "positive": 10,
     "negative": -5
   },
-  "zektor": {
+  "zektor/activity": {
     "positive": 10,
     "negative": -5
   },
-  "pixel01": {
+  "pixel01/activity": {
     "positive": 10,
     "negative": -5
   }
