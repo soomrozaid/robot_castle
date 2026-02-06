@@ -6,6 +6,9 @@
     "USERNAME": "zektor",
     "PASSWORD": "command",
     "STAGE_TOPICS": {
+      "0": [
+        "forest/entrance/activity"
+      ],
       "1": [
         "archway/01/activity",
         "archway/02/activity",

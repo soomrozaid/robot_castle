@@ -1,0 +1,23 @@
+{
+  "stage_map": {
+    "1": null,
+    "2": "session1",
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null
+  },
+  "sessions": {
+    "session1": {
+      "name": "Session 1",
+      "current_stage": 2,
+      "score": 4,
+      "start_time": "2024-11-26T18:42:58.832933"
+    }
+  },
+  "active_sessions": [
+    "session1"
+  ],
+  "completed_sessions": [],
+  "next_session_id": 2
+}

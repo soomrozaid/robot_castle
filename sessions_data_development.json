@@ -1,0 +1,62 @@
+{
+  "stage_map": {
+    "1": "session6",
+    "2": null,
+    "3": "session4",
+    "4": "session3",
+    "5": "session2",
+    "6": "session1",
+    "7": null
+  },
+  "sessions": {
+    "session1": {
+      "name": "Test Sess",
+      "current_stage": 6,
+      "score": 66,
+      "start_time": "2024-11-22T23:51:19.197415"
+    },
+    "session2": {
+      "name": "Session 2",
+      "current_stage": 5,
+      "score": 33,
+      "start_time": "2024-12-08T23:50:02.008382"
+    },
+    "session3": {
+      "name": "Session 3",
+      "current_stage": 4,
+      "score": 0,
+      "start_time": "2024-12-09T00:02:03.579286"
+    },
+    "session4": {
+      "name": "Session 4",
+      "current_stage": 3,
+      "score": 0,
+      "start_time": "2024-12-09T00:02:52.251899"
+    },
+    "session5": {
+      "name": "Red",
+      "current_stage": 1,
+      "score": 0,
+      "start_time": "2026-01-30T19:57:50.936326"
+    },
+    "session6": {
+      "name": "Session 6",
+      "current_stage": 7,
+      "score": 17,
+      "start_time": "2026-01-30T19:58:00.961602"
+    }
+  },
+  "active_sessions": [
+    "session1",
+    "session2",
+    "session3",
+    "session4",
+    "session5",
+    "session6"
+  ],
+  "completed_sessions": [
+    "session7",
+    "session8"
+  ],
+  "next_session_id": 13
+}
